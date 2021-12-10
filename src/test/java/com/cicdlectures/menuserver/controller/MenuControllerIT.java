@@ -75,7 +75,7 @@ public class MenuControllerIT {
           )
         )
       );
-      wantMenus = menuRepository.save(wantMenus);
+   //   wantMenus = menuRepository.save(wantMenus);
     // Effectue une requête GET /menus
     ResponseEntity<MenuDto[]> response = this.template.getForEntity(getMenusURL().toString(), MenuDto[].class);
  
